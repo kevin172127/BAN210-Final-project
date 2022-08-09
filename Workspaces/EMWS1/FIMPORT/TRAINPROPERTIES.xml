@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?><_ROOT_  Location="CATALOG" Catalog="SASHELP.EMSAMP.Fimport.SOURCE" ImportType="Local" GuessRows="500"
+ Delimiter="," NameRow="Y" SkipRows="0" MaxRows="1000000" MaxCols="10000" FileType="xlsx"
+ Role="TRAIN" ForceRun="N" Summarize="N" AdvancedAdvisor="N" RunAction="Train" Component="FileImport"
+ IFileName="C:\Users\brahm\OneDrive\Desktop\breast-cancer.xlsx" AccessTable="NoTableName"
+ UserID="NoUserID" Password="NoPassword" RawCreateTime="1975516168.7" CreateTime="07AUG2022:18:29:29"
+ RunId="00cb10f5-0a13-48b0-9e67-c3a6073bc9a9" RawLastTimeRun="1975516575.7" RawRunTime="5.2479999065"
+ LastTimeRun="07AUG2022:18:36:16" RunTime="0 Hr. 0 Min. 5.25 Sec.">
+<VARIABLEPROPERTIES/>
+<FILEPROPERTIES ><![CDATA[
+USERTRAINCODE
+USERSCORECODE
+USERREPORTCODE
+VARIABLESETDELTA
+DELTACODE
+]]>
+</FILEPROPERTIES></_ROOT_>

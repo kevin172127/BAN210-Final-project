@@ -1,0 +1,40 @@
+ 
+                                                                                               
+ 
+ 
+Variable Summary
+
+            Measurement    Frequency
+Role           Level         Count
+
+ID           INTERVAL          1    
+INPUT        INTERVAL          1    
+INPUT        NOMINAL           8    
+REJECTED     INTERVAL          1    
+TARGET       NOMINAL           1    
+ 
+                                                                                               
+ 
+ 
+Model Events
+
+                                              Number
+                               Measurement      of
+Target          Event             Level       Levels      Order       Label
+
+class     RECURRENCE-EVENTS      NOMINAL         2      Descending    class
+ 
+                                                                                               
+ 
+ 
+Predicted and decision variables
+
+Type         Variable                       Label
+
+TARGET       class                          class                                
+PREDICTED    P_classrecurrence_events       Predicted: class=recurrence-events   
+RESIDUAL     R_classrecurrence_events       Residual: class=recurrence-events    
+PREDICTED    P_classno_recurrence_events    Predicted: class=no-recurrence-events
+RESIDUAL     R_classno_recurrence_events    Residual: class=no-recurrence-events 
+FROM         F_class                        From: class                          
+INTO         I_class                        Into: class                          

@@ -1,0 +1,212 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Summary
+
+            Measurement    Frequency
+Role           Level         Count
+
+INPUT        INTERVAL          1    
+INPUT        NOMINAL           8    
+REJECTED     INTERVAL          1    
+TARGET       NOMINAL           1    
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The DMINE Procedure
+
+           R-Squares for Target Variable: _DUMMY_TARGET_
+ 
+Effect                            DF        R-Square
+
+Class: inv_nodes*tumor_size       30        0.229723                
+Group: inv_nodes*tumor_size        5        0.225279                
+Class: age*tumor_size             40        0.213504                
+Group: age*tumor_size              6        0.210920                
+Class: breast_quad*tumor_size     39        0.198563                
+Group: breast_quad*tumor_size      5        0.195444                
+Class: breast_quad*inv_nodes      22        0.177067                
+Class: inv_nodes*menopause        13        0.176143                
+Group: breast_quad*inv_nodes       5        0.175378                
+Group: inv_nodes*menopause         4        0.173815                
+Class: menopause*tumor_size       25        0.155812                
+Group: menopause*tumor_size        5        0.154432                
+Class: irradiat*tumor_size        18        0.153964                
+Group: irradiat*tumor_size         5        0.151130                
+Class: age*inv_nodes              20        0.150177                
+Group: age*inv_nodes               6        0.148673                
+Class: inv_nodes*irradiat         11        0.148213                
+Group: inv_nodes*irradiat          5        0.147250                
+AOV16: REP_deg_malig               2        0.140498                
+Class: node_caps*tumor_size       20        0.130403                
+Group: node_caps*tumor_size        5        0.127918                
+Class: breast*inv_nodes           11        0.126010                
+Group: breast*inv_nodes            5        0.125245                
+Class: breast*tumor_size          21        0.111679                
+Group: breast*tumor_size           5        0.110303                
+Var:   REP_deg_malig               1        0.108820                
+Class: inv_nodes*node_caps        14        0.106845                
+Group: inv_nodes*node_caps         4        0.105687                
+Class: age*breast_quad            23        0.099782                
+Group: age*breast_quad             6        0.098886                
+Class: irradiat*node_caps          5        0.093579                
+Group: irradiat*node_caps          4        0.093365                
+Class: breast_quad*node_caps      13        0.091055                
+Group: breast_quad*node_caps       3        0.089235                
+Class: breast_quad*irradiat       10        0.088864                
+Group: breast_quad*irradiat        5        0.087465                
+Class: tumor_size                 10        0.078743                
+Group: tumor_size                  4        0.077953                
+Class: inv_nodes                   6        0.076118                
+Group: inv_nodes                   2        0.075282                
+Class: breast*node_caps            5        0.069648                
+Group: breast*node_caps            3        0.069445                
+Class: age*node_caps              12        0.060040                
+Class: age*irradiat                9        0.059758                
+Group: age*node_caps               5        0.059475                
+Group: age*irradiat                4        0.058911                
+Class: breast_quad*menopause      13        0.055869                
+Group: breast_quad*menopause       6        0.055460                
+Class: menopause*node_caps         7        0.054804                
+Group: menopause*node_caps         3        0.054752                
+Class: breast*irradiat             3        0.043050                
+Group: breast*irradiat             2        0.042330                
+Class: irradiat*menopause          4        0.040225                
+Group: irradiat*menopause          3        0.040183                
+Class: breast*breast_quad         10        0.032616                
+Group: breast*breast_quad          5        0.032335                
+Class: age*menopause              10        0.031490                
+Group: age*menopause               5        0.031380                
+Class: age*breast                 10        0.030453                
+Group: age*breast                  3        0.030081                
+Class: node_caps                   2        0.029958                
+Group: node_caps                   1        0.029947                
+Class: irradiat                    1        0.027570                
+Class: age                         5        0.017048                
+Group: age                         3        0.017017                
+Class: breast_quad                 5        0.014394                
+Group: breast_quad                 3        0.014257                
+Class: breast*menopause            5        0.006313                
+Group: breast*menopause            3        0.006285                
+Class: menopause                   2        0.001755    R2 < MINR2  
+Class: breast                      1        0.000539    R2 < MINR2  
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The DMINE Procedure
+
+                                   Effects Chosen for Target: _DUMMY_TARGET_
+ 
+                                                                                         Sum of      Error Mean
+Effect                            DF        R-Square         F Value    p-Value         Squares          Square
+
+Var:   REP_deg_malig               1        0.108820       24.055170     <.0001        4.516840        0.187770
+Group: inv_nodes                   2        0.037094        4.234557     0.0158        1.539685        0.181800
+Group: tumor_size                  4        0.026045        1.501916     0.2032        1.081063        0.179947
+Group: age                         3        0.009135        0.699055     0.5537        0.379172        0.180802
+Group: breast_quad                 3        0.009033        0.687776     0.5606        0.374922        0.181707
+Class: irradiat                    1        0.000924        0.210140     0.6472        0.038348        0.182486
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The DMINE Procedure
+
+  The Final ANOVA Table for Target: _DUMMY_TARGET_
+ 
+                                              Sum of
+Effect            DF        R-Square         Squares
+
+Model             14        0.191050        7.930030
+Error            184               .       33.577508
+Total            198               .       41.507538
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The DMINE Procedure
+
+                         Effects Not Chosen for Target: _DUMMY_TARGET_
+ 
+                                                                                         Sum of
+Effect                            DF        R-Square         F Value    p-Value         Squares
+
+Group: node_caps                   1     0.000004641        0.001050     0.9742        0.000193
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The DMINE Procedure
+
+         Estimating logistic
+ 
+ Iter           Alpha            Beta
+
+    0       -2.003808        4.009786
+    1       -2.747377        5.802869
+    2       -2.951639        6.310231
+    3       -2.963972        6.340542
+    4       -2.964014        6.340643
+    4       -2.964014        6.340643
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The DMINE Procedure
+
+Classification Table for CUTOFF = 0.5000
+ 
+         Accuracy =  76.38
+ 
+                      Predicted
+Observed               1           0
+
+1                    131           9
+0                     38          21
+Missing                0           0
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------
+Summary of Variable Selection from Training
+-------------------------------------------------------------------
+
+
+Target Name : class
+Target Level : NOMINAL
+Variable Selection Model : R-Square
+
+NOTE: A dummy binary target(_DUMMY_TARGET_) is used for the nominal target(class).
+NOTE: For _DUMMY_TARGET_, NO-RECURRENCE-EVENTS is the event level and the rest is the nonevent level
+
+Total number of inputs : 9
+Total number of used inputs : 9
+Total number of unused inputs : 0
+Total number of rejected inputs : 7
+
+Maximum missing percentage : 50
+NOTE: There is no rejected variable by maximum missing percentage
+
+Maximum class level : 100
+NOTE:There is no rejected variable by maximum class level
+
+NOTE: 4 group variables have been created
